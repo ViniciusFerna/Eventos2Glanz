@@ -1,0 +1,108 @@
+* Seção de Serviços */
+.services-section {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #292022;
+    color: white;
+}
+ 
+.services-section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    color: #70ff70;
+    text-transform: uppercase;
+}
+ 
+/* Contêiner de Serviços */
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+ 
+/* Cards de Serviço */
+.service-card {
+    background-color: #444444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    min-width: 280px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+ 
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+}
+ 
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+ 
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .service-card {
+        width: 90%;
+    }
+}
+ 
+/* Seção de Formulário de Orçamento */
+.budget-form-section {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #2a2a2a;
+    color: white;
+    margin-top: 40px;
+}
+ 
+.budget-form-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #70ff70;
+}
+ 
+/* Formulário de Orçamento */
+.budget-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+ 
+.budget-form input,
+.budget-form select {
+    padding: 10px;
+    font-size: 1rem;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+ 
+.budget-form button {
+    background-color: #70ff70;
+    color: #221A1B;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+.budget-form button:hover {
+    background-color: #56cc56;
+}
+ 

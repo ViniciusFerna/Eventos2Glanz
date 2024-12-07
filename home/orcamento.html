@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glanz - Serviços</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/orcamento.css">
+</head>
+ 
+<body>
+   
+    <header>
+        <div class="logo">
+            <img src="/img/logo.png" alt="Logo da Glanz">
+        </div>
+        <nav class="menu">
+            <a href="/home/home.html">Home</a>
+            <a href="/home/aboutUs.html">Sobre Nós</a>
+            <a href="/home/portfolio.html">Portfólio</a>
+            <a href="/home/servicos.html">Serviços</a>
+            <a href="/home/login.html">Login</a>
+        </nav>
+    </header>
+ 
+ 
+    <section class="services-section">
+        <h2>Serviços Oferecidos</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="/img/corporativo.jpg" alt="Serviço 1">
+                <h3>Consultoria Estratégica</h3>
+                <p class="service-description">Oferecemos consultoria personalizada para criar e executar eventos corporativos de alto impacto.</p>
+            </div>
+            <div class="service-card">
+                <img src="/img/Reunião.jpg" alt="Serviço 2">
+                <h3>Planejamento de Eventos</h3>
+                <p class="service-description">Cuidamos de todos os detalhes do seu evento, desde a concepção até a execução final.</p>
+            </div>
+            <div class="service-card">
+                <img src="/img/virtual.jpg" alt="Serviço 3">
+                <h3>Gestão de Eventos Online</h3>
+                <p class="service-description">Transforme o seu evento presencial em uma experiência online única e interativa.</p>
+            </div>
+            <div class="service-card">
+                <img src="/img/eventosPersonalizado.jpg" alt="Serviço 4">
+                <h3>Eventos Personalizados</h3>
+                <p class="service-description">Criamos eventos sob medida para atender às necessidades e objetivos de nossos clientes.</p>
+            </div>
+        </div>
+    </section>
+ 
+   
+    <section class="budget-form-section">
+        <h2>Solicite seu Orçamento</h2>
+        <form class="budget-form">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+            <label for="service">Serviço</label>
+            <select id="service" name="service" required>
+                <option value="consultoria">Consultoria Estratégica</option>
+                <option value="planejamento">Planejamento de Eventos</option>
+                <option value="gestao">Gestão de Eventos Online</option>
+                <option value="personalizado">Eventos Personalizados</option>
+            </select>
+            <label for="budget">Orçamento Estimado (R$)</label>
+            <input type="number" id="budget" name="budget" placeholder="Valor aproximado" required>
+            <button type="submit" class="cta-button">Enviar</button>
+        </form>
+    </section>
+ 
+    <footer>
+        <p>&copy; 2024 Glanz - Todos os direitos reservados</p>
+    </footer>
+</body>
+ 
+</html>

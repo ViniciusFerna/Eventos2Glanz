@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #221A1B; 
+    color: white;
+}
+.color-header {
+    background-color: #292021;
+    height: 75px;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.logo img {
+    height:8%;
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;    
+    justify-content: center;
+    
+}
+
+.menu a:hover {
+    color: rgb(112, 255, 112);
+    transition: color 0.5s;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.service-card1, .service-card2, .service-card3   {
+    background-color: #292021;
+    height: 400px;
+    width: 300px;
+}
+
+.service-img img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+.service-text {
+    text-align: center;
+}
+
+.service-text h1 {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.service-text p {
+    margin: 30px;
+}
+
+.customers {
+    margin-top: 70px;
+    background-color: #292021;
+}
+
+.customers-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.customers-text p {
+    margin-top: 30px;
+}
+
+.customers-display {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #221A1B;
+}
+
+.customers-card {
+    width: 250px;
+}
+ 
+
+.customers-card img {
+    width: 250px;
+    height: 250px;
+}
+
+.customer-card-text {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #292021;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 20px;
+    }
+    
+    .bottom-bar, .copyright-text, a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .bottom-bar, a:hover {
+        color: rgb(112, 255, 112);
+        text-align: center;
+    }    
+
+

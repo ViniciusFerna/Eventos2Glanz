@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/login.css">
+
+    <title>Glanz - Login</title>
+</head>
+<body>
+    <header>
+        <div class="image-header">
+            <div class="logo">
+                <img src="/img/logo.png" alt="">
+            </div>
+            <nav class="menu">
+                <a href="/home/home.html">Home</a></li>
+                <a href="/home/aboutUs.html">Sobre Nós</a>
+                <a href="/home/portfolio.html">Portfólio</a>
+                <a href="/home/orcamento.html">Serviços</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Login</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <label for="inputBox">Senha</label>
+                <input type="password" id="inputBox" class="inputUser" pattern="[0-9]+$" required>
+                <small id="passwordHelpBlock" class="form-text text-muted">
+                    Deve ter entre 8 e 20 caracteres.
+                </small>
+
+                <br><br>
+
+                <input type="button" id="login" value="Login" onclick="window.location.href='login.html';">
+                <input type="button" id="cadastre-se" value="Cadastre-se" onclick="window.location.href='cadastro.html';">
+
+                
+            </fieldset>
+        </form>
+    </div>
+    
+    <footer>
+        <small class="copyright-text">Copyright © Glanz 2024 Todos os direitos reservados -
+            <a href="https://www.linkedin.com/in/vinícius-fernandes-5911752b9" target="linkedin">Vinicius Fenandes</a>,
+            <a href="https://www.linkedin.com/in/victor-ishizaki" target="linkedin">Victor Ishizaki</a> e
+            <a href="https://www.linkedin.com/in/pablo-santos-185490195" target="linkedin">Pablo Santos</a> 
+        </small>
+    </footer>
+</body>
+</html>
