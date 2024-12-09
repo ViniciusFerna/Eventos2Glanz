@@ -2,27 +2,27 @@
     padding: 0;
     margin: 0;
 }
-
+ 
 body {
     height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #221A1B; 
+    background-color: #221A1B;
     color: white;
 }
-
+ 
 .color-header {
     background-color: #292021;
     height: 75px;
     background-size: cover;
     text-align: center;
 }
-
+ 
 .logo img {
     height: 8%;
     width: 10%;
     float: left;
 }
-
+ 
 .hero {
     background-image: url(../img/pessoas.png);
     height: 400px;
@@ -30,20 +30,20 @@ body {
     padding: 1px;
     background-position: auto;
 }
-
+ 
 .hero-content {
     margin: 100px auto 0;
     width: 80%;
     text-align: center;
 }
-
+ 
 .hero-content h1 {
     font-size: 50px;
     text-shadow: 2px 2px 2px #292021;
     margin-bottom: 6px;
     text-transform: uppercase;
 }
-
+ 
 .hero-content p {
     background-color: rgba(0, 0, 0, .6);
     border-bottom: 2px solid;
@@ -52,21 +52,21 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
-
+ 
 main {
     width: 90%;
     margin: auto;
     max-width: 860px;
     color: black;
 }
-
+ 
 article {
     background-color: rgba(111, 89, 125, 0.5);
     padding: 16px;
     margin-top: 32px;
     margin-bottom: 32px;
 }
-
+ 
 article h2 {
     border-bottom: 2px solid #ccc;
     background-color: #eee;
@@ -76,50 +76,56 @@ article h2 {
     margin-bottom: 12px;
     color: black;
 }
-
+ 
 article p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding: 12px;
 }
-
+ 
 .main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px; /* Ajuste o espaço entre os cards */
 }
-
+ 
 .card {
-    margin: 20px 0; 
-    background-color: rgba(230, 230, 230, 0.9); 
+    margin: 20px 0;
+    background-color: rgba(230, 230, 230, 0.9);
     width: 250px; /* Ajuste a largura dos cards */
-    height: auto; 
+    height: auto;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: #202020;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+ 
 .card h1 {
     font-size: 16px;
     padding-top: 10px;
 }
-
+ 
 .card p {
     font-size: 12px;
     padding: 20px 20px;
     color: black;
 }
-
+ 
 .card img {
     width: 100%;
-    height: 300px; 
+    height: 300px;
     border-radius: 6px;
     object-fit: cover;
     background-position: bottom;
 }
-
+ 
+.card:hover {
+    transform: translateY(-10px) scale(1.05); /* Leve elevação e aumento de escala */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Aumentando a sombra */
+  }
+ 
 /* ------------------------------------------------------------------------ */
 footer {
     background-color: #292021;
@@ -130,12 +136,12 @@ footer {
     margin-top: 200px;
     padding-top: 20px;
     }
-    
+   
     .bottom-bar, .copyright-text, a {
         text-decoration: none;
         color: white;
     }
-    
+   
     .bottom-bar, a:hover {
         color: rgb(112, 255, 112);
         text-align: center;
